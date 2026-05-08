@@ -1,18 +1,21 @@
 # expanse.nvim
 ### MCRN Rocinante Command Interface — *inspired by The Expanse*
 
-A dark Neovim colorscheme with the aesthetic of a Martian Congressional Republic Navy warship bridge: deep space blacks, bioluminescent cyan readouts, amber command input, and Mars-orange alerts. Follows a minimal-highlighting philosophy — only four syntax classes receive distinct colors, keeping your focus on the code rather than the palette.
+A dark Neovim colorscheme with the aesthetic of a Martian Congressional Republic Navy warship bridge: deep space blacks, bioluminescent cyan readouts, amber command input, and Mars-orange alerts. Each syntax role gets its own color while maintaining the cold, industrial feel of a ship command interface.
 
 ## Palette
 
 | Role | Color | Hex |
 |------|-------|-----|
 | Background | deep space black | `#080c12` |
-| Foreground | bioluminescent cyan | `#7ecfcf` |
-| Definitions / functions | amber command | `#e8c97a` |
+| Foreground / variables | bioluminescent cyan | `#7ecfcf` |
+| Functions / definitions | amber command | `#e8c97a` |
+| Keywords / control flow | ice blue | `#8ab8d0` |
+| Types / structures | teal | `#5ab0a0` |
 | Constants / literals | warm gold | `#c8a96e` |
 | Strings | nominal green | `#5ec98e` |
-| Punctuation | dim cyan | `#4a8a9a` |
+| Builtins | steel gray | `#a0b8b8` |
+| Punctuation / operators | dim cyan | `#4a8a9a` |
 | Errors | Mars orange-red | `#ff6b47` |
 | Warnings | transponder orange | `#ff9a3c` |
 
